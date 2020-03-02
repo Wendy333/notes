@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #scan{
+            width: 150px;
+            margin-top: 50px;
+            margin-left: 50px;
+            height: 150px;
+            float: left;
+            background: url(ren.jpg) no-repeat;
+        }
+        #scan:hover{
+            background-position: 0 -1500px;
+            transition: 1s;
+            transition-timing-function: steps(10);
+        }
+        #dance{
+            width: 500px;
+            height: 365px;
+            margin-top: 50px;
+            float: left;
+            background: url(1.jpg) no-repeat;
+        }
+        #dance:hover{
+            background-position: 0 -2920px;
+            transition: 1s;
+            transition-timing-function: steps(8);
+        }
+        #laoye{
+            width: 82px;
+            height: 125px;
+            float: left;
+            background: url(老爷.png) no-repeat;
+            
+        }
+        #laoye:hover{
+            background-position: -410px 0px;
+            transition: 1s;
+            transition-timing-function: steps(5);
+        }
+        #tx{
+            width:  69px;
+            height: 69px;
+            margin-top: 200px;
+            float: left;
+            background: url(特效.jpg) no-repeat;
+            /* border: solid red 1px; */
+            background-position: -16px -14px;
+        }
+        #tx:hover{
+            background-position: -3062px -14px;
+            transition: 2s;
+            transition-timing-function: steps(34);
+        }
+        #tz{
+            float: left;
+            width: 140px;
+            height: 190px;
+            background: url(兔斯基.jpg) no-repeat;
+
+        }
+        #tz:hover{
+            
+            background-position: -700px 0px;
+            transition: 1s;
+            transition-timing-function: steps(5);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box" >
+        <div id="scan"></div>
+        <div id="dance"></div>
+        <div id="laoye"></div>
+        <div id="tx"></div>
+        <div id="tz"></div>
+    </div>
+</body>
+</html>

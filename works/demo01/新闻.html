@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1{
+            margin-top: 50px;
+            margin-left: 20px;
+            width: 1200px;
+            height: 350px;
+            border-top: 3px solid rgb(153, 153, 153);
+            border-bottom: 3px solid rgb(153, 153, 153);
+        }
+        h2{
+            margin-top: 5px;
+            color:#254282 ;
+            margin-bottom: 10px;
+        }
+        #s1{
+            font-size: 15px;
+            font-weight:500;
+            color:#99999c ;           
+        }  
+        #s1pic{
+            width: 13px;
+            height: 13px;
+            background-image:url("jt2.png");
+            background-position:left bottom;
+            background-repeat:no-repeat;
+        }         
+        hr{                           
+            color: #dee2e6;
+        }
+        #left_a{
+            /* list-style-image:url("li2.png");*/            
+            list-style-type:none;
+            font-weight: bold;
+            font-size: 20px;
+            text-indent:12px;
+            background-image:url("li2.png");
+            background-position:left 50%;
+            background-repeat:no-repeat;
+        }
+        #left>li.b{
+            margin: 10px 0px;
+            /* list-style-image:url("li.png"); */
+            text-indent:10px;
+            list-style-type:none;
+            background-image:url("li.png");
+            background-position:left 60%;
+            background-repeat:no-repeat;
+            
+        }
+        
+        #left{
+            float: left;
+        }
+        #mid{
+            float: left;
+            margin-top: 5px;
+            margin-left: 50px;
+            width: 300px;
+            height: 200px;
+        }
+        #mid_s2{
+            color:#254282 ;
+            font-weight: bold;
+            
+        }
+        #mid_pic{
+             width: 260px;
+             height: 190px;
+             margin-top: 10px;
+             background-color: #f6f7f8;
+            
+        }
+        #mid_pic>img{   
+            width: 260px;
+            height: 150px;
+        }
+        #mid_pic>p{
+            margin-top: 5px;
+            margin-left: 5px;
+            font-size: 14px;
+        }
+        #right{    
+            float: left;
+           margin-top:5px;
+        }
+        #right_s3{
+            color:#254282 ;
+            font-weight: bold;
+            
+        }
+        #right>li{
+            margin: 10px 0px;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="box1">
+        <h2>北京新闻<span id="s1">LOCAL NEWS</span><img id="s1pic"></img></h2>
+        <hr>
+        <div id="left">
+        <li id="left_a">复工后如何解决就餐问题？各方协调，饭菜送上门</li>
+        <li class="b">为快递小哥进社区“亮绿灯”，中关村街道四大保障...</li>
+        <li class="b">关于中西医孰强的争论，张伯礼：治好病是真的</li>
+        <li class="b">全国20多个省级人大常委会出台防控疫情相关决定</li>
+        <li class="b">抓紧抓实抓细防控工作，不获全胜决不收兵</li>
+        <li class="b">从“秒通关”到“零跑动”北京海关24条措施落...</li>
+        <li class="b">怀柔“暖心十条”关爱防疫一线党员干部</li>
+        <li class="b">李易峰“碰瓷”时装设计师？《我在北京等你》“车...</li>
+        </div>
+        <div id="mid">
+        <span id="mid_s2">▍新闻图片</span>
+        <div id="mid_pic">
+            <img src="xwpic.png" alt="新闻图片">
+            <p>怀柔渤海镇三岔村有支战“疫”娘子军</p>
+        </div>
+        </div>
+        <div id="right">
+            <span id="right_s3">▍新闻咨询</span>
+            <li>早高峰堵了？北京驾车活力复工指数为25.4%</li>
+            <li>@北京市民二月龙抬头，居家理发咱不愁！</li>
+            <li>节后首躺务工人员专列抵京，南站开通测温引</li>
+            <li>《我在北京等你》首播遇冷！李易峰被嘲没演</li>
+            <li>《我在北京等你》：李易峰你如此猴急，才第1</li>
+            <li>“二月二”预约剪发：进店先测温，实现“零等候”</li>
+            <li>交通+大气+产业 京津冀6年的“三件大事”</li>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
