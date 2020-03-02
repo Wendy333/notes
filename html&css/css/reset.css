@@ -1,0 +1,24 @@
+img{
+    width: 90px;
+    height:90px;
+    
+}
+#a{
+    text-align: center;
+    width: 500px;
+}
+#a1{
+    text-align: center;
+    float: left;
+    width: 150px;
+}
+
+#a2{
+    
+    text-align: center;
+    float: left;
+    width: 150px;
+}
+p{
+    margin:10px 30px;
+}
