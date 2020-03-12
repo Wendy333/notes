@@ -1,0 +1,69 @@
+body,p,h1,h2,h3,h4,ul{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    border: none;
+    vertical-align: middle;   /* 默认img样式底部会有缝隙，用此消除*/
+}
+a{
+    text-decoration: none;
+    color:#3c3c3c;
+}
+i{
+    font-style: normal;   /*斜体不需要*/
+}
+input,button{
+    margin: 0;
+    padding: 0;
+}
+button{
+    outline:none; /*取消蓝色的框*/
+}
+body{
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    /*大小/行高 字体  */
+    /* '\5b8b\4f53' 可跨语言跨平台是宋体的unicode */
+    color: #3c3c3c;
+    background-color: #f4f4f4;
+}
+
+/*预定义样式*/
+/*清浮动*/
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.layer{
+    width: 1190px;
+    margin: 0 auto;
+}
+.c4{
+    color:#f40;
+}
+.c5{
+    color:#f50;
+}
+.mr7{
+    margin-right: 7px;
+}
+.mr5{
+    margin-right: 5px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mr10{
+    margin-right: 10px;
+}
