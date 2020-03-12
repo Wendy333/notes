@@ -1,0 +1,30 @@
+/* pages/demo4/demo4.wxss */
+
+/* 
+    1 引入的代码 是通过 @import 来引入
+    2 路径 只能 写相对路径
+*/
+/* @import "../../styles/common.wxss"; */
+
+
+
+// 1 定义less 变量
+@color:yellow;
+text{
+    // 2 使用变量
+    color:@color;
+}
+
+view{
+    .vie1{
+         text{
+             color:red;
+         }
+    }
+}
+
+// 导入
+@import "../../styles/reset.less";
+view{
+    color:@themeColor;
+}

@@ -1,0 +1,15 @@
+/* pages/demo4/demo4.wxss */
+/* 
+    1 引入的代码 是通过 @import 来引入
+    2 路径 只能 写相对路径
+*/
+/* @import "../../styles/common.wxss"; */
+text {
+  color: yellow;
+}
+view .vie1 text {
+  color: red;
+}
+view {
+  color: green;
+}

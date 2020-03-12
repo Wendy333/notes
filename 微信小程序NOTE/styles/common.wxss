@@ -1,0 +1,5 @@
+/* demo04 中引用了 */
+view{
+    color:aqua;
+    font-size: 100px;
+} 
