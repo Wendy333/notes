@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+
+<swiper autoplay interval="1000" circular indicator-dots indicator-color="#f9f0ef" indicator-active-color="#f54634">
+    <swiper-item><image mode="widthFix" src="https://img.alicdn.com/simba/img/TB11lUfuebviK0jSZFNSuuApXXa.jpg"></image></swiper-item>
+    <swiper-item><image mode="widthFix" src="https://img.alicdn.com/simba/img/TB1cudXxoH1gK0jSZSySuttlpXa.jpg"></image></swiper-item>
+    <swiper-item><image mode="widthFix" src="https://img.alicdn.com/simba/img/TB1Jb4zu2b2gK0jSZK9SuuEgFXa.jpg"></image></swiper-item>
+</swiper>
