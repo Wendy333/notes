@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <style>
+        div{
+            background-color: pink;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <script>
+        // 1 DOM对象：用原生JS获取过来的对象就是DOM 对象
+        var myDiv = document.querySelector('div'); // myDiv就是dom对象
+        console.dir(myDiv);
+
+        // 2 jquery对象： 用jquery方式获取过来的对象就是jquery对象 本质是通过$把dom元素进行了包装 形成了伪数组
+        $('div');//$('div')是一个Jquery对象
+        
+        //3 jquery 对象只能使用jquery方法 dom对象只能使用原生js的属性和方法
+        // myDiv.style.display = 'none' ;
+        // myDiv.hide() // dom对象不能使用jquery中的hide方法
+        // $('div').style.display = 'none' ; //jquery对象不能使用原生js的属性和方法
+
+    </script>
+</body>
+</html>

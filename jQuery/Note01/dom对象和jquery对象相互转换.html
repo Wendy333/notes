@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <video src="hawen.mp4" muted></video>
+    <script>
+        // 1 dom 对象转换为 jquery对象 $(dom对象)
+        //  直接获取视频 就是jquery对象
+        $('video');
+        //  使用js获取dom对象
+        var myVideo = document.querySelector('video');
+        // $(myVideo).play(); //jquery 里没有play这个方法(myVideo已经是dom对象 所以无需加单引号)
+        // 2 jquery 对象转换为dom对象 $('div')[index] / $('div').get(index)
+        // myvideo.play();
+        $('video')[0].play()
+        $('video').get(0).play()
+    </script>
+</body>
+</html>
